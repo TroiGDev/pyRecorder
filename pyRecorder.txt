@@ -7,5 +7,5 @@ For examples of implementation look at Plants.py and Magma.py (in Source) which 
 This version is very rough as it has many problems:
 	it slows down the render
 	it doesnt delete past .png shots automaticaly
-	the video framerate can be adjusted but no calibration is in place to make the final video the avarage frame rate of the actual render
+	the video framerate can be adjusted (recommended 24FPS) but no calibration is in place to make the final video the avarage frame rate of the actual render
 		therefore the final video may be slower or faster than the render without pyRecorder
