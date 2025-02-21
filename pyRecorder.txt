@@ -3,6 +3,8 @@ pyRecorder is a simple script that creates fixed framerate videos from pygame wi
 Before use note that it saves all individual photos taken during the recording as .png files in the working directory that have to be manualy removed, and when the final video is generated it takes ALL .png images in the working directory, so make sure to NOT HAVE ANY EXTRA .PNG FILES IN THE WORKING DIRECTORY WHEN RECORDING otherwise you will have random frames of the extra .pngs
 
 For examples of implementation look at Plants.py and Magma.py (in Source) which are both gameoflife cellular automaton implementations
+Specificaly anything related to the "recorder" object in those 2 .py files
+	recorder initialization from Recorder class, recorder.takeShot and recorder.getVideo
 
 This version is very rough as it has many problems:
 	it slows down the render
