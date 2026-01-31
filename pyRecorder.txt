@@ -1,3 +1,4 @@
+for V1:
 pyRecorder is a simple script that creates fixed framerate videos from pygame windows
 
 Before use note that it saves all individual photos taken during the recording as .png files in the working directory that have to be manualy removed, and when the final video is generated it takes ALL .png images in the working directory, so make sure to NOT HAVE ANY EXTRA .PNG FILES IN THE WORKING DIRECTORY WHEN RECORDING otherwise you will have random frames of the extra .pngs
